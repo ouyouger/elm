@@ -93,6 +93,7 @@ export default {
       }
     },
     handleSizeChange (val) {
+      //条数方法
       console.log(`每页 ${val} 条`)
     },
     handleCurrentChange (val) {
