@@ -61,7 +61,7 @@ export default {
       //     registe_time: '2016-05-03',
       //     username: '王小虎',
       //     city: '上海市普陀区金沙江路 1516 弄'
-      //   }],用户信息
+      //   }],用户信息更改了
       offset: 0,
       limit: 20,
       count: [],
