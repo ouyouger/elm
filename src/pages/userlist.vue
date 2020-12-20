@@ -45,7 +45,7 @@ import { getUserList, getUserCount } from '@/api/user'
 export default {
   data () {
     return {
-      tableData: [],
+      tableData: [],//数据
       //     registe_time: '2016-05-02',
       //     username: '王小虎',
       //     city: '上海市普陀区金沙江路 1518 弄'
