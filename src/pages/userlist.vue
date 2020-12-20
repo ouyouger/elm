@@ -95,7 +95,7 @@ export default {
     },
     //条数
     handleSizeChange (val) {
-      //条数方法
+      //条数方法2.0
       console.log(`每页 ${val} 条`)
     },
     handleCurrentChange (val) {
