@@ -45,7 +45,7 @@ import { getUserList, getUserCount } from '@/api/user'
 export default {
   data () {
     return {
-      tableData: [],
+      tableData: [],//数据
       //     registe_time: '2016-05-02',
       //     username: '王小虎',
       //     city: '上海市普陀区金沙江路 1518 弄'
@@ -61,13 +61,15 @@ export default {
       //     registe_time: '2016-05-03',
       //     username: '王小虎',
       //     city: '上海市普陀区金沙江路 1516 弄'
-      //   }],用户信息
+      //   }],用户信息更改了2.0
       offset: 0,
       limit: 20,
       count: [],
       currentPage: 2,
       pageSize: 2,
-      sizes: [2, 4, 6, 8]
+      sizes: [2, 4, 6, 8],
+      Number1:3,
+      number:2.0
 
     }
   },
@@ -76,6 +78,7 @@ export default {
     this.initData()
   },
   methods: {
+    //获取数据
     async initData () {
       try {
         const countData = await getUserCount()
