@@ -68,7 +68,9 @@ export default {
       currentPage: 2,
       pageSize: 2,
       sizes: [2, 4, 6, 8],
-      Number1:3
+      Number1:3,
+      number:2.0
+
     }
   },
   created () {
