@@ -67,14 +67,15 @@ export default {
       count: [],
       currentPage: 2,
       pageSize: 2,
-      sizes: [2, 4, 6, 8]
-
+      sizes: [2, 4, 6, 8],
+      Number1:3
     }
   },
   created () {
     this.initData()
   },
   methods: {
+    //获取数据
     async initData () {
       try {
         const countData = await getUserCount()
