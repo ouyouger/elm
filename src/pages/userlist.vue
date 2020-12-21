@@ -78,7 +78,7 @@ export default {
     this.initData()
   },
   methods: {
-    //获取数据
+    //获取数据1
     async initData () {
       try {
         const countData = await getUserCount()
@@ -106,10 +106,10 @@ export default {
       this.offset = (val - 1) * this.limit
       this.getUsers()
     },
-       handleSizeChange1 (val) {
+       handleSizeChange11 (val) {
       console.log(`每页 ${val} 条`)
     },
-     handleSizeChange3(val) {
+     handleSizeChange31(val) {
       console.log(`每页 ${val} 条`)
     },
      
