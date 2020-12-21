@@ -98,10 +98,10 @@ export default {
       this.offset = (val - 1) * this.limit
       this.getUsers()
     },
-       handleSizeChange(val) {
+       handleSizeChange123(val) {
       console.log(`每页 ${val} 条`)
     },
-     handleSizeChange5(val) {
+     handleSizeChange5123(val) {
       console.log(`每页 ${val} 条`)
     },
      
