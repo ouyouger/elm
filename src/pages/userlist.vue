@@ -52,7 +52,7 @@ export default {
       //   }, {
       //     registe_time: '2016-05-04',
       //     username: '王小虎',
-      //     city: '上海市普陀区金沙江路 1517 弄'
+      //     city: '上海市普陀区金沙江路 1517 弄'z
       //   }, {
       //     registe_time: '2016-05-01',
       //     username: '王小虎',
