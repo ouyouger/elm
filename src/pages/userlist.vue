@@ -115,9 +115,7 @@ export default {
      handleSizeChange3(val) {
       console.log(`每页 ${val} 条`)
     },
-     handleSizeChange4(val) {
-      console.log(`每页 ${val} 条`)
-    },
+    
     async getUsers () {
       getUserList({
         offset: this.offset, limit: this.limit
