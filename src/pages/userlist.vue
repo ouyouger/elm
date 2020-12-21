@@ -101,6 +101,11 @@ export default {
       this.offset = (val - 1) * this.limit
       this.getUsers()
     },
+    handleCurrentChange3(val) {
+      this.currentPage = val
+      this.offset = (val - 1) * this.limit
+      this.getUsers()
+    },
     async getUsers () {
       getUserList({
         offset: this.offset, limit: this.limit
