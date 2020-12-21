@@ -99,10 +99,10 @@ export default {
       this.getUsers()
     },
        handleSizeChange11 (val) {
-      console.log(`每页 ${val} 条`)
+      console.log(`每页 ${val} 条shu`)
     },
      handleSizeChange31(val) {
-      console.log(`每页 ${val} 条`)
+      console.log(`每页 ${val} 条shu`)//11
     },
      
     async getUsers () {
