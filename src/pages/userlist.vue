@@ -97,6 +97,12 @@ export default {
       this.offset = (val - 1) * this.limit
       this.getUsers()
     },
+       handleSizeChange1 (val) {
+      console.log(`每页 ${val} 条`)
+    },
+       handleSizeChange2(val) {
+      console.log(`每页 ${val} 条`)
+    },
     async getUsers () {
       getUserList({
         offset: this.offset, limit: this.limit
