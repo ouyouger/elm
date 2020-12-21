@@ -106,10 +106,10 @@ export default {
        handleSizeChange1 (val) {
       console.log(`每页 ${val} 条`)
     },
-       handleSizeChange2(val) {
+     handleSizeChange3(val) {
       console.log(`每页 ${val} 条`)
     },
-     handleSizeChange3(val) {
+    handleSizeChange4(val) {
       console.log(`每页 ${val} 条`)
     },
     
