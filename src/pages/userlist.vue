@@ -97,6 +97,7 @@ export default {
       //条数方法11
       console.log(`每页 ${val} 条`)
     },
+    //zenjia
     handleSizeChange0(val) {
       //条数方法
       console.log(`每页 ${val} 条`)
