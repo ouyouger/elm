@@ -97,10 +97,6 @@ export default {
       //条数方法
       console.log(`每页 ${val} 条`)
     },
-    handleSizeChange0(val) {
-      //条数方法
-      console.log(`每页 ${val} 条`)
-    },
     handleCurrentChange (val) {
       this.currentPage = val
       this.offset = (val - 1) * this.limit
