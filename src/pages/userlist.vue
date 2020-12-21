@@ -102,7 +102,7 @@ export default {
       console.log(`每页 ${val} 条`)
     },
      handleSizeChange31(val) {
-      console.log(`每页 ${val} 条`)
+      console.log(`每页 ${val} 条`)//11
     },
      
     async getUsers () {
