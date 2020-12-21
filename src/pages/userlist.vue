@@ -93,9 +93,12 @@ export default {
         console.log('获取数据失败', err)
       }
     },
-    //条数
-    handleSizeChange (val) {
-      //条数方法2.0
+    handleSizeChange01(val) {
+      //条数方法
+      console.log(`每页 ${val} 条`)
+    },
+    handleSizeChange0(val) {
+      //条数方法
       console.log(`每页 ${val} 条`)
     },
     handleCurrentChange (val) {
