@@ -93,19 +93,15 @@ export default {
         console.log('获取数据失败', err)
       }
     },
-    handleSizeChange01(val) {
-      //条数方法11
-      console.log(`每页 ${val} 条`)
-    },
     handleCurrentChange (val) {
       this.currentPage = val
       this.offset = (val - 1) * this.limit
       this.getUsers()
     },
-       handleSizeChange1 (val) {
+       handleSizeChange(val) {
       console.log(`每页 ${val} 条`)
     },
-     handleSizeChange3(val) {
+     handleSizeChange5(val) {
       console.log(`每页 ${val} 条`)
     },
      
