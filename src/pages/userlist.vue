@@ -103,9 +103,6 @@ export default {
       this.offset = (val - 1) * this.limit
       this.getUsers()
     },
-     handleSizeChange0(val) {
-      console.log(`每页 ${val} 条`)
-    },
        handleSizeChange1 (val) {
       console.log(`每页 ${val} 条`)
     },
