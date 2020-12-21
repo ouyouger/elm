@@ -93,6 +93,15 @@ export default {
         console.log('获取数据失败', err)
       }
     },
+    handleSizeChange01(val) {
+      //条数方法11
+      console.log(`每页 ${val} 条`)
+    },
+    //zenjia
+    handleSizeChange0(val) {
+      //条数方法
+      console.log(`每页 ${val} 条`)
+    },
     handleCurrentChange (val) {
       this.currentPage = val
       this.offset = (val - 1) * this.limit
