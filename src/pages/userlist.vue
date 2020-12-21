@@ -75,6 +75,7 @@ export default {
     this.initData()
   },
   methods: {
+    //方法
     async initData () {
       try {
         const countData = await getUserCount()
